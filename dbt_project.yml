@@ -21,3 +21,8 @@ models:
       materialized: table
       staging:
         materialized: view
+
+seeds:
+  jaffle_shop:
+    +quote: false
+    +quote_columns: false
