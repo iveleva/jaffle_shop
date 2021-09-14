@@ -1,3 +1,5 @@
+-- an example of using Jinja to keep code DRY
+
 {% set payment_methods = ['credit_card', 'coupon', 'bank_transfer', 'gift_card'] %}
 
 with orders as (
